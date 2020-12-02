@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '前端專案建置、AWS、EC2' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/avatar.png' }
     ],
     script: [
       {src: '/jquery-min-3.5.1.js'},
