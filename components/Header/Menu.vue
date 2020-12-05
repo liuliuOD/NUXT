@@ -53,7 +53,7 @@ export default {
   },
   computed: {
     isUserLoggedIn() {
-      return true;
+      return false;
     },
   },
   methods: {
