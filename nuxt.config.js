@@ -1,4 +1,9 @@
 export default {
+  // env
+  env: {
+    site_title: process.env.site_title || 'NUXT',
+  },
+
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
@@ -15,6 +20,7 @@ export default {
     ],
     script: [
       {src: '/jquery-min-3.5.1.js'},
+      {src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js'},
     ],
   },
 
